@@ -43,7 +43,7 @@
             <a href="{{ route('mediahub.index') }}">
                 <i class="{{ config('other.font-awesome') }} fa-database"
                    style=" font-size: 18px; color: #ffffff;"></i>
-                <span class="menu-text">MediaHub</span>
+                <span class="menu-text">@lang('mediahub.title')</span>
                 <span class="selected"></span>
             </a>
         </li>
@@ -58,7 +58,7 @@
         <li>
             <a href="{{ route('playlists.index') }}">
                 <i class="{{ config('other.font-awesome') }} fa-list-ol" style=" font-size: 18px; color: #ffffff;"></i>
-                <span class="menu-text">Playlists</span>
+                <span class="menu-text">@lang('playlist.playlists')</span>
                 <span class="selected"></span>
             </a>
         </li>
