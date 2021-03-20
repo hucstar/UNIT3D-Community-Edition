@@ -31,7 +31,6 @@ return [
     'album'                => 'Album',
     'amount'               => 'Amount',
     'anonymous'            => 'Anonymous',
-    'article'              => 'Article',
     'ascending'            => 'Ascending',
     'author'               => 'Author',
     'balance'              => 'Balance',
